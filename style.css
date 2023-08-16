@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pastel';
+    src: url(fonts/Black\ Pastel.otf)format(opentype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Blue';
+    src: url(fonts/SquishyBlue.ttf)format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Copaseti';
+    src: url(fonts/COPASETI.TTF)format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Signature';
+    src: url(fonts/Antariskalia\ Signature.otf)format(opentype);
+    font-weight: normal;
+}
+
+
+ 
+
+
+ :root {
+
+     --cor0: #96b2ee; 
+     --cor1: azure;
+     --cor2: #d2691e;
+     --cor3: #d8b860;
+     --cor4: #36353d;
+
+     --fonte-padrao:  'Signature';
+     --fonte-destaque: 'Blue';
+     --fonte-titulos: 'Pastel';
+
+
+ }
+
+.tituloprincipal {
+    text-align: center;
+    background-image: linear-gradient(to right , black , var(--cor2) , rgb(197, 113, 18) );
+    font-family:  'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+    padding: 10px;
+    margin: 15px;
+
+}
+
+h3 {
+    text-align:   left;
+    background-image: linear-gradient(to right , black , var(--cor2) , TRANSPARENT , rgb(197, 113, 18) );
+    font-family:  'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+    padding: 10px;
+
+    margin: 20px;
+
+}
+
+body {
+    background-image:  url(imagens/body.jpg);
+    margin: 18px 18px 0px 18px;
+    background-size: cover;
+}
+
+ 
+
+main {
+    background-image: url(imagens/main.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+
+     min-width: 300px;
+       max-width: 660px;
+       
+     margin: auto;
+     display: block;
+    
+    
+    /* centraliza o conteudo */
+     
+   
+}
+
+ 
+
+.cores > h1 {
+
+    font-family: var(--fonte-titulos);
+    margin: 12px;
+}
+
+.imageslinks {
+    border-radius: 12px;
+    
+}
+
+.fontes > h1{
+
+    font-family: var(--fonte-titulos);
+    margin: 12px;
+}
+
+
+
+
+
+
+
+aside.fontes > a {
+    font-family:var(--fonte-destaque);
+    font-size: 20px;
+    color: var(--cor4);
+}
+
+aside.fontes > p {
+    
+    
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 12px;
+    text-align: justify;
+    text-indent: 30px;  /* recuo deparagrafo*/
+    line-height: 2em ;  /* altura entre linhas */
+}
+
+ 
+
+
+aside.cores > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: var(--cor4);
+    margin: 12px;
+    text-indent: 30px;  /* recuo deparagrafo*/
+    line-height: 2em ;  /* altura entre linhas */
+}
+aside.cores > a {
+    font-family:var(--fonte-destaque);
+    font-size: 20px;
+    color: var(--cor4);
+}
+
+aside.fontes {
+
+    background-color: var(--cor2);
+    width: 300px;
+    height: 505px;
+    border-radius: 12px;
+    display:   inline-table  ;
+    
+    margin: 12px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+   
+
+}
+
+
+aside.cores {
+
+    background-image: linear-gradient( to left , #d2691e  , #f7e547);
+    width: 300px;
+    height: 505px;
+    border-radius: 12px;
+    display:   inline-table ;
+    margin: 12px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+      
+    
+}
+
+
+img.response {
+
+    min-width: 300px;
+       max-width: 620px;
+    width: 100%;
+    margin: auto;
+    display: block ;
+     /* ajuda a centralizar junto com a tag margin auto */
+
+     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445);
+
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    
+    text-align: center;
+    margin: 0px -60px  ;
+    padding: 3px;
+
+     
+
+}
+
+
+div.video {
+
+    background-color: #d2691e;
+    margin: 0px -20px -20px -20px;
+    
+     position: relative;
+     padding-bottom: 53%;
+     
+
+}
+
+div.video > iframe {
+
+    position: absolute;
+    
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ 
+ 
+img{
+    margin: 12px;
+}
+
+
